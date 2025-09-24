@@ -2,6 +2,7 @@ import React from "react";
 import Particles from "../components/Particles";
 import Hero from "../components/Hero";
 import Navbar  from "../components/Navbar";
+import Upload  from "../components/Upload";
 
 const page = () => {
   return (
@@ -20,6 +21,7 @@ const page = () => {
       <div style={{ position: "relative", zIndex: 1 }}>
       <Navbar />
         <Hero />
+        <Upload />
         {/* Other site content */}
       </div>
     </div>
